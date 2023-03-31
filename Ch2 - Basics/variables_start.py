@@ -12,6 +12,7 @@ mybool = True
 mylist = [0, 1, "two", 3.2, False]
 mytuple = (0, 1, 2)
 mydict = {"one" : 1, "two" : 2}
+myset = {"a", 1, 2}
 
 print(myint)
 print(myfloat)
@@ -20,7 +21,7 @@ print(mybool)
 print(mylist)
 print(mytuple)
 print(mydict)
-
+print(myset)
 # re-declaring a variable works
 
 # to access a member of a sequence type, use []
